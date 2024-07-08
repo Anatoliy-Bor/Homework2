@@ -1,0 +1,5 @@
+study_course = "Python"
+total_tasks = 12
+hours_spent = 1.5
+average_time = (hours_spent * 3600 / total_tasks) / 3600
+print('Курс :', study_course, ', всего задачь:', total_tasks, 'затраченно часов:', hours_spent, ', среднеевремя выполнения', average_time, 'часов.')
